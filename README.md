@@ -1,4 +1,4 @@
-nanobind_example
+typing_repro
 ================
 
 |      CI              | status |
@@ -6,10 +6,10 @@ nanobind_example
 | pip builds           | [![Pip Action Status][actions-pip-badge]][actions-pip-link] |
 | wheels               | [![Wheel Action Status][actions-wheels-badge]][actions-wheels-link] |
 
-[actions-pip-link]:        https://github.com/wjakob/nanobind_example/actions?query=workflow%3APip
-[actions-pip-badge]:       https://github.com/wjakob/nanobind_example/workflows/Pip/badge.svg
-[actions-wheels-link]:     https://github.com/wjakob/nanobind_example/actions?query=workflow%3AWheels
-[actions-wheels-badge]:    https://github.com/wjakob/nanobind_example/workflows/Wheels/badge.svg
+[actions-pip-link]:        https://github.com/wjakob/typing_repro/actions?query=workflow%3APip
+[actions-pip-badge]:       https://github.com/wjakob/typing_repro/workflows/Pip/badge.svg
+[actions-wheels-link]:     https://github.com/wjakob/typing_repro/actions?query=workflow%3AWheels
+[actions-wheels-badge]:    https://github.com/wjakob/typing_repro/workflows/Wheels/badge.svg
 
 
 This repository contains a tiny project showing how to create C++ bindings
@@ -23,14 +23,14 @@ Installation
 ------------
 
 1. Clone this repository
-2. Run `pip install ./nanobind_example`
+2. Run `pip install ./typing_repro`
 
 Afterwards, you should be able to issue the following commands (shown in an
 interactive Python session):
 
 ```pycon
->>> import nanobind_example
->>> nanobind_example.add(1, 2)
+>>> import typing_repro
+>>> typing_repro.add(1, 2)
 3
 ```
 

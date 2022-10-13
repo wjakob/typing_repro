@@ -1,4 +1,4 @@
-import nanobind_example as m
+import typing_repro as m
 
 def test_add():
-    assert m.add(1, 2) == 3
+    assert m.A().add(1, 2) == 3

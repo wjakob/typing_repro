@@ -1,4 +1,4 @@
-project(nanobind_example)
+project(typing_repro)
 cmake_minimum_required(VERSION 3.18...3.22)
 
 if (NOT SKBUILD)
@@ -33,10 +33,10 @@ find_package(nanobind CONFIG REQUIRED)
 
 # Build the actual extension module
 nanobind_add_module(
-  nanobind_example_ext
+  typing_repro_ext
   NB_STATIC # Build static libnanobind (the extension module itself remains a shared library)
-  src/nanobind_example_ext.cpp
+  src/typing_repro_ext.cpp
 )
 
 # Install directive for scikit-build
-install(TARGETS nanobind_example_ext LIBRARY DESTINATION .)
+install(TARGETS typing_repro_ext LIBRARY DESTINATION .)
